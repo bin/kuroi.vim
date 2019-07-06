@@ -260,7 +260,7 @@ exe "hi! WildMenu"          .s:fg_selection   .s:bg_orange      .s:fmt_none
 " FIXME LongLineWarning to use variables instead of hardcoding
 hi LongLineWarning  guifg=NONE        guibg=#371F1C     gui=underline ctermfg=NONE        ctermbg=NONE        cterm=underline
 
-exe "hi! Normal"        .s:fg_foreground  .s:bg_background    .s:fmt_none
+"exe "hi! Normal"        .s:fg_foreground  .s:bg_background    .s:fmt_none
 
 "}}}
 " Generic Syntax Highlighting: (see :help group-name)"{{{
